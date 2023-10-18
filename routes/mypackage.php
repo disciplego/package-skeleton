@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-// Dynamic robots.txt route
-Route::get('/robots.txt', function () {
-    return response(view('dgo::robots'), 200, ['Content-Type' => 'text/plain']);
+// :uc:package route
+Route::get('/:lc:package.txt', function () {
+    return response(view('dgo:::lc:package'), 200, ['Content-Type' => 'text/plain']);
 });
