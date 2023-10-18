@@ -1,6 +1,6 @@
 <?php
 
-use Dgo\:uc:package\BaseServiceProvider;
+use Dgo\:uc:package\:uc:packageServiceProvider;
 use Illuminate\Contracts\Foundation\Application;
 
 it('registers the :uc:packageServiceProvider', function () {

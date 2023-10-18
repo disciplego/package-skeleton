@@ -16,7 +16,7 @@ class :uc:packageServiceProvider extends ServiceProvider
         // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'dgo');
         // $this->loadViewsFrom(__DIR__.'/../resources/views', 'dgo');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-        // $this->loadRoutesFrom(__DIR__.'/:lc:package.php');
+        // $this->loadRoutesFrom(__DIR__.'/../routes/:lc:package.php');
 
         // Publishing is only necessary when using the CLI.
         if ($this->app->runningInConsole()) {
