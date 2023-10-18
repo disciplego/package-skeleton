@@ -8,5 +8,4 @@ return [
     'resources/views/mypackage.blade.php' => 'resources/views/:lc:package.blade.php',
     'src/Facades/MyPackage.php' => 'src/Facades/:uc:package.php',
     'src/MyPackageServiceProvider.php' => 'src/:uc:packageServiceProvider.php',
-    'tests/ExampleTest.php' => 'tests/ExampleTest.php',
 ];
