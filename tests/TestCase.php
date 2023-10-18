@@ -4,19 +4,9 @@ namespace Dgo\:uc:package\Tests;
 
 use Orchestra\Testbench\TestCase as Testbench;
 
-abstract class TestbenchTestCase extends Testbench
+abstract class TestCase extends Testbench
 {
-    public function setUp(): void
-    {
-        parent::setUp();
-    }
-
-    public function tearDown(): void
-    {
-       parent::tearDown();
-    }
-
-    public function getEnvironmentSetUp($app)
+        public function getEnvironmentSetUp($app)
     {
         config()->set('database.default', 'testing');
     }
