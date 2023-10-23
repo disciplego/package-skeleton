@@ -13,11 +13,7 @@
     "keywords": ["Laravel", "DiscipleGo", "Dgo", ":uc:package"],
     "require": {
         "php": "^8.1",
-        "bezhansalleh/filament-shield": "^3.0",
-        "illuminate/contracts": "^10.0",
-        "laravel/jetstream": "^4.0",
-        "laravel/sanctum": "^3.3",
-        "livewire/livewire": "^3.0"
+        "illuminate/support": "~9"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
