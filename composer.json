@@ -9,6 +9,10 @@
             "homepage": ":author_homepage"
         }
     ],
+    "repositories": [{
+        "type": "composer",
+        "url": "https://packages.disciplego.com"
+    }],
     "homepage": "https://github.com/:lc:vendor/:lc:package",
     "keywords": ["Laravel", "DiscipleGo", "Dgo", ":uc:package"],
     "require": {
