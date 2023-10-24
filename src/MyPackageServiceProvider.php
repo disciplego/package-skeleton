@@ -18,6 +18,9 @@ class :uc:packageServiceProvider extends ServiceProvider
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         // $this->loadRoutesFrom(__DIR__.'/../routes/:lc:package.php');
 
+        if (!class_exists(':uc:package')) {
+            class_alias(\Dgo\:uc:package\Facades\:uc:package::class, ':uc:package');
+        }
         // Publishing is only necessary when using the CLI.
         if ($this->app->runningInConsole()) {
             $this->bootForConsole();
