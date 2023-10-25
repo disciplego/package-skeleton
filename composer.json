@@ -54,5 +54,7 @@
                 ":uc:package": "Dgo\\:uc:package\\Facades\\:uc:package"
             }
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
