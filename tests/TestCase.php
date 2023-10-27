@@ -3,10 +3,13 @@
 namespace Dgo\:uc:package\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Foundation\Testing\Concerns\InteractsWithViews;
 use Orchestra\Testbench\TestCase as Testbench;
 
 abstract class TestCase extends Testbench
 {
+    use InteractsWithViews;
+
     protected function setUp(): void
     {
         parent::setUp();
