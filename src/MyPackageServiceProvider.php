@@ -69,6 +69,11 @@ class :uc:packageServiceProvider extends ServiceProvider
             __DIR__.'/../resources/views' => base_path('resources/views/vendor/dgo'),
         ], ':lc:package.views');*/
 
+        // Publishing the migrations.
+        /*$this->publishes([
+            __DIR__.'/../database/migrations' => database_path('migrations'),
+        ], ':lc:package.migrations');*/
+
         // Publishing assets.
         /*$this->publishes([
             __DIR__.'/../resources/assets' => public_path('vendor/dgo'),
