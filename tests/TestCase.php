@@ -14,6 +14,9 @@ abstract class TestCase extends Testbench
     {
         parent::setUp();
 
+        // Set the application key
+        $this->app['config']->set('app.key', 'base64:' .'d2oyZHh2cG01enZoYXZodzR2ZjBpdnpqcnV3Zmw4MHY=');
+
         Factory::guessFactoryNamesUsing(
             fn (string $modelName) => 'Dgo\\:uc:package\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
